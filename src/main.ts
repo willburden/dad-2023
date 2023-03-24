@@ -4,7 +4,7 @@ import { prepareParticles } from './particles';
 import { applyFlicker } from './flicker';
 import { prepareDadCanvas as prepareDad } from './dad';
 
-await (async () => {
+(async () => {
   const heading = document.querySelector<HTMLHeadingElement>('#message');
   const trigger = document.querySelector<HTMLButtonElement>('#start-trigger');
 
@@ -31,4 +31,7 @@ await (async () => {
       });
   });
   trigger.classList.remove('offscreen');
-})();
+})()
+  .catch(error => {
+    console.error(error);
+  });
