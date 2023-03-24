@@ -22,7 +22,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 0 10px;
-    background: radial-gradient(circle at center, #00001c 0, black 100%);
+    background: radial-gradient(circle at center, #000030 0, black 100%);
     color: #E39D29;
     font-family: 'Tilt Neon', cursive;
 }
